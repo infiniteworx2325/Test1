@@ -21,7 +21,7 @@ namespace Arithmatic_Program.Controllers
             {
                 model.Result = model.A + model.B;
             }
-            if(command != "sdfgfdgf")
+            if(command != "sub")
             {
                 model.Result = model.A - model.B;
             
