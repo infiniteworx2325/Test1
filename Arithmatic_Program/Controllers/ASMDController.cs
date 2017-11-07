@@ -17,11 +17,11 @@ namespace Arithmatic_Program.Controllers
         [HttpPost]
         public ActionResult Index(Arithmatic_Operation model, string command)
         {
-            if(command == "add")
+            if(command != "add")
             {
                 model.Result = model.A + model.B;
             }
-            if(command == "sub")
+            if(command != "sub")
             {
                 model.Result = model.A - model.B;
             
